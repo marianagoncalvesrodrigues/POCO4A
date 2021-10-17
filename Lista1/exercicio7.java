@@ -34,3 +34,26 @@ public class Pendulo {
 	}
 	
 }
+
+package lista1;
+
+import java.util.Scanner;
+
+public class Principal7{
+	public static int oscila, a, b, c;
+	public Principal7() {
+		//constructor
+	}
+	
+	public static void main(String [] args) {
+		Pendulo pendulo = new Pendulo();
+		do {
+			Scanner Scan = new Scanner(System.in);
+			System.out.println("Insira a quantidade de oscilacoes:\n");
+			oscila = Scan.nextInt();
+			
+			pendulo.Pendulo(oscila);
+		}while(oscila > 0); // 0 ou inferior sai do laço
+	}
+	
+}
