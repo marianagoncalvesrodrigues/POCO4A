@@ -1,3 +1,9 @@
+/**
+* @author Mariana Goncalves Rodrigues, Anderson Soares da Silva
+* @r.a: 2151014 e 2150875
+* @date 04 OUT 2021
+*/
+
 package lista1;
 
 import java.util.Random;
